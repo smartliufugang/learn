@@ -7,6 +7,9 @@ var  app=new Vue({
     computed:{
         sum:function(){
             return this.matho+this.yuwen
+        },
+        average:function(){
+            return this.sum/2
         }
     }
 })

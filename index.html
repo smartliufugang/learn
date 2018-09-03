@@ -23,7 +23,11 @@
                     </tr>
                     <tr>
                         <td>总分</td>
-                        <td><input type="text" v-model="sum"></td>
+                        <td><input type="text" v-model.number="sum"></td>
+                    </tr>
+                    <tr>
+                        <td>平均分</td>
+                        <td><input type="text"v-model.number="average"></td>
                     </tr>
                 </table>
     </div>
